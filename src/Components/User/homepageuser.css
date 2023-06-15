@@ -1,0 +1,73 @@
+.homepage-user{
+    min-height: 100dvh;
+    width: 100dvw;
+}
+
+.banner{
+    height: 40em;
+}
+
+.text-banner{
+    height: 50%;
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 7em;
+    letter-spacing: 5px;
+    display: inline-block;
+    /* background-image: linear-gradient(to bottom right, rgb(211, 62, 211), yellow); */
+}
+
+.text-banner-sub{
+    font-family: Roboto;
+    font-size: 1.5em;
+    border: .1em solid #2c3333;
+}
+
+.bg-foto-banner{
+    border-radius: 10px;
+    /* border: 3px dashed black; */
+    height: 25em;
+    width: 30em;
+    /* background-color: #F7D060; */
+    background-image: linear-gradient(to bottom right, rgb(211, 62, 211), yellow);
+}
+
+.foto-banner{
+    height: 22em;
+    object-fit: cover;
+}
+
+.text-judul-barang-body{
+    font-family: Roboto;
+    font-size: 1.4em;
+    font-weight: 600;
+}
+
+.card-barang{
+    height: 18em;
+    width: 16em;
+    cursor: pointer;
+    background-color: #f7f7f7;
+}
+
+.card-barang:hover{
+    border: 2px dashed black;
+}
+
+.bg-foto-card-barang{
+    height: 11em;
+    width: 100%;
+  
+    background-color: #F7D060;
+}
+
+.foto-kaos-polos{
+    height: 100%;
+    object-fit: cover;
+}
+
+.text-nama-card-barang{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 1.1em;
+}

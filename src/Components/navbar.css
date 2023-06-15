@@ -1,0 +1,44 @@
+.navbar{
+    background-color: #2C3333; 
+    height: 3em;
+    overflow-x: hidden;
+}
+
+.text-navbar{
+    height: 100%;
+    color: #f7f7f7;
+    font-family: Raleway;
+    font-weight: 600;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.navbar-sub{
+    height: 100%;
+    width: 100%;
+}
+
+.text-navbar-sub{
+    height: 100%;
+    width: 5em;
+    color: grey;
+    font-family: Raleway;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.text-navbar-sub:hover{
+    color: #f7f7f7;
+}
+
+.search-navbar{
+    border-radius: 5px;
+}
+
+.col{
+    height: 100%;
+}
+
+.col-3{
+    height: 100%;
+}
