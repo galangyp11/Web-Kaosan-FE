@@ -1,0 +1,101 @@
+.barang-details{
+    min-height: 80dvh;
+}
+
+.bg-foto-barang-details{
+    height: 25em;
+    width: 25em;
+    background-color: #F7D060;
+}
+
+
+.text-nama-barang-details{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 2.2em;
+}
+.text-barang-details{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 1em;
+}
+.text-harga{
+    font-weight: bold;
+}
+
+.bg-info-barang{
+    background-color: #f7f7f7;
+    height: 25em;
+}
+
+.bg-deksripsi{
+    background-color: #f7f7f7;
+    height: 10em;
+}
+.but-shopee{
+    border: 1px solid orange;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+    color: orange;
+    width: 7em;
+    height: 2.5em;
+    font-weight: 600;
+
+    transition: .2s ease;
+}
+
+.but-shopee:hover{
+    background-color: orange;
+    color: #f7f7f7;
+}
+
+.but-tokopedia{
+    border: 1px solid rgb(0, 200, 0);
+    border-radius: 5px;
+    background-color: #f7f7f7;
+    color: rgb(0, 200, 0);
+    width: 7em;
+    height: 2.5em;
+    font-weight: 600;
+
+    transition: .2s ease;
+}
+
+.but-tokopedia:hover{
+    background-color: rgb(0, 200, 0);
+    color: #f7f7f7;
+}
+
+.but-blibli{
+    border: 1px solid skyblue;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+    color: skyblue;
+    width: 7em;
+    height: 2.5em;
+    font-weight: 600;
+
+    transition: .2s ease;
+}
+
+.but-blibli:hover{
+    background-color: skyblue;
+    color: #f7f7f7;
+}
+
+.but-tiktok{
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+    color: black;
+    width: 7em;
+    height: 2.5em;
+    font-weight: 600;
+
+    transition: .2s ease;
+}
+
+.but-tiktok:hover{
+    background-image: linear-gradient(to right, rgb(0, 174, 255), red);
+    color: #f7f7f7;
+}

@@ -19,6 +19,15 @@ const BarangAdmin = ({setHalaman}) => {
         setHalaman(<InputBarang/>)
     }
 
+    const handleHapus = (e, id) => {
+        e.preventDefault()
+        console.log(id)
+
+        axios.delete(`http://localhost:3069/barang/${id}`);
+        const dataFilter = dataBarang.filter((data) => data.id_barang !== id);
+        setDataBarang(dataFilter)
+    }
+
     console.log(dataBarang)
     return ( 
         <div className="barang-admin container py-3">
@@ -53,7 +62,7 @@ const BarangAdmin = ({setHalaman}) => {
                                 <td>{data.harga}</td> 
                                 <td>
                                     <button className='but-barang btn btn-warning mx-1'>Edit</button>
-                                    <button className='but-barang btn btn-danger mx-1'>Hapus</button>
+                                    <button className='but-barang btn btn-danger mx-1' onClick={(e) =>handleHapus(e, data.id_barang)}>Hapus</button>
                                 </td>
                             </tr>
                         )    
